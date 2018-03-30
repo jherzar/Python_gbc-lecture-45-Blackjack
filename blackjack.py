@@ -1,5 +1,6 @@
 import random
 
+
 #
 # Blackjack game
 #
@@ -35,6 +36,9 @@ def load_images(card_images):
             name = 'cards/{}_{}.{}'.format(str(card), suit, extension)
             image = tkinter.PhotoImage(file=name)
             card_images.append((10, image,))
+
+def JIH():
+    print("hello")
 
 
 def deal_card(frame):
