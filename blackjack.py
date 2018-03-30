@@ -39,6 +39,7 @@ def load_images(card_images):
 
 def JIH():
     print("hello")
+    print(" ")
 
 
 def deal_card(frame):
